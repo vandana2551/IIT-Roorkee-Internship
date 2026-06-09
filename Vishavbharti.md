@@ -122,4 +122,10 @@ Your BMI is: 0.00
 ...                       category = "Obese"
 ...                       print(f"You are classified as: {category}")
 ...
+ celsius = float(input("Enter temperature in Celsius: "))
+Enter temperature in Celsius: 43
+>>> fahrenheit = (celsius * 9/5) + 32
+>>> print(f"{celsius}°C is equal to {fahrenheit}°F");
+43.0°C is equal to 109.4°F
+>>>
 
