@@ -128,4 +128,13 @@ Enter temperature in Celsius: 43
 >>> print(f"{celsius}°C is equal to {fahrenheit}°F");
 43.0°C is equal to 109.4°F
 >>>
-
+>>> P = float(input("Enter the principal amount (P): "))
+Enter the principal amount (P): 50
+>>> R = float(input("Enter the rate of interest per year (R in %): "))
+Enter the rate of interest per year (R in %): 5
+>>> T = float(input("Enter the time in years (T): "))
+Enter the time in years (T): 2
+>>> SI = (P * R * T) / 100
+>>> print(f"The Simple Interest is: {SI}")
+The Simple Interest is: 5.0
+>>>
