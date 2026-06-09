@@ -54,4 +54,54 @@ NameError: name 'true' is not defined. Did you mean: 'True'?
 >>> d= True
 >>> print(type(d));
 <class 'bool'>
+>>> num1=float(input("enter first number:"))
+enter first number:10
+>>> num2=float(input("enter second number:"))
+enter second number:20
+>>> print("Addition=",num1+num2);
+Addition= 30.0
+>>> print("subtraction=",num2-num1);
+subtraction= 10.0
+>>> (print("multiplication=",num1*num2);
+  File "<python-input-38>", line 1
+    (print("multiplication=",num1*num2);
+                                       ^
+SyntaxError: invalid syntax
+>>> (print("multiplication=", num1 * num2 );
+  File "<python-input-39>", line 1
+    (print("multiplication=", num1 * num2 );
+                                           ^
+SyntaxError: invalid syntax
+>>> (print("multiplication=", num1 * num2 )
+... (print("multiplication=", num1 * num2 )(print("multiplication=", num1 * num2 )(print("multiplication=", num1 * num2 )
+... >>> num1=float(input("enter first number:"))
+... enter first number:10
+... >>> num2=float(input("enter second number:"))
+... enter second number:20
+... p
+...
+  File "<python-input-40>", line 2
+    (print("multiplication=", num1 * num2 )(print("multiplication=", num1 * num2 )(print("multiplication=", num1 * num2 )
+                                                                                  ^
+SyntaxError: '(' was never closed
+>>> (print("multiplication=",num1*num2);
+  File "<python-input-41>", line 1
+    (print("multiplication=",num1*num2);
+                                       ^
+SyntaxError: invalid syntax
+>>> (print("multiplication=",num1 * num2);
+  File "<python-input-42>", line 1
+    (print("multiplication=",num1 * num2);
+                                         ^
+SyntaxError: invalid syntax
+>>>
+>>> print("multiplication=",num1*num2);
+multiplication= 200.0
+>>> print(division=",num1/num2);
+  File "<python-input-45>", line 1
+    print(division=",num1/num2);
+                   ^
+SyntaxError: unterminated string literal (detected at line 1)
+>>> print("division=",num1/num2);
+division= 0.5
 >>>
