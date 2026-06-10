@@ -90,3 +90,19 @@ FizzBuzz
 17
 Fizz
 19
+ secret = 7
+...
+... guess = 0
+...
+... while guess != secret:
+...     guess = int(input("Guess the number: "))
+...
+...     if guess == secret:
+...         print("Correct!")
+...     else:
+...         print("Try again!")
+...
+Guess the number: 5
+Try again!
+Guess the number: 7
+Correct!
