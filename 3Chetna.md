@@ -62,3 +62,9 @@ Subtraction: 5
 Multiplication: 50
 Square: 36
 Factorial: 120
+ import random
+>>> dice=random.randint(1,6)
+>>> print("you rolled:",dice)
+you rolled: 5
+>>> print("you rolled:",dice)
+you rolled: 5
