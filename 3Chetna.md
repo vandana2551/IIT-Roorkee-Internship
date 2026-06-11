@@ -129,4 +129,15 @@ dc?YmG/A
 ... print(generate_password(8))
 ...
 CQ<(K5Y<
->>>
+>>>>>> iterative approach
+>>> def factorial_iterative(n):
+...     result = 1
+...
+...     for i in range(1, n + 1):
+...         result = result * i
+...
+...     return result
+...
+... print(factorial_iterative(9))
+...
+362880 
