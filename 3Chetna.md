@@ -68,3 +68,65 @@ Factorial: 120
 you rolled: 5
 >>> print("you rolled:",dice)
 you rolled: 5
+ def quiz():
+...     questions = [
+...         ("who is the host of sx6?", "karan kundra"),
+...         ("who is the winner of sx6?", "gullu"),
+...         ("who is the connection of yogesh?", "akansha+ruru")
+...     ]
+...
+...     score = 0
+...
+...     for q, correct_answer in questions:
+...         answer = input(q + " ")
+...
+...         if answer.lower() == correct_answer:
+...             print("Correct!")
+...             score += 1
+...         else:
+...             print("Wrong!")
+...
+...     print("\nFinal Score:", score, "/", len(questions))
+...
+... quiz()
+...
+who is the host of sx6? sunny leone
+Wrong!
+who is the winner of sx6? himashu
+Wrong!
+who is the connection of yogesh? ruru
+Wrong!
+
+Final Score: 0 / 3
+>>> import random
+... import string
+...
+... def generate_password(length):
+...     chars = string.ascii_letters + string.digits + string.punctuation
+...     return ''.join(random.choice(chars) for _ in range(length))
+...
+... print(generate_password(8))
+...
+G0N*C\??
+>>>
+>>>
+>>> import random
+... import string
+...
+... def generate_password(length):
+...     chars = string.ascii_letters + string.digits + string.punctuation
+...     return ''.join(random.choice(chars) for _ in range(length))
+...
+... print(generate_password(8))
+...
+dc?YmG/A
+>>> import random
+... import string
+...
+... def generate_password(length):
+...     chars = string.ascii_letters + string.digits + string.punctuation
+...     return ''.join(random.choice(chars) for _ in range(length))
+... print(generate_password(8))
+...
+CQ<(K5Y<
+>>>
